@@ -1,6 +1,37 @@
 site_name: Guide to Hosting Static Websites
 site_url: https://static-site-hosting.ideapool.community
+site_description: Hosting static websites, whether it's documentation or a React website,
+  is a common practice. There are numerous options available, both paid and free, catering
+  to different levels of load and technical expertise. This guide aims to compare several
+  hosting options, providing examples and working templates to help you make an
+  informed decision.
+site_author: Idea Pool Community
 nav:
   - Guide: index.md
+plugins:
+  - offline
 theme:
   name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - content.action.edit
+  logo: assets/idea-pool.png
+  favicon: assets/idea-pool.png
+  icon:
+    repo: fontawesome/brands/github-alt
+    edit: material/pencil
+    view: material/eye
+repo_url: https://github.com/Idea-Pool/static-site-hosting
+repo_name: Idea-Pool/static-site-hosting
+edit_uri: edit/main/docs/
