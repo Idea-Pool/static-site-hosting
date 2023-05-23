@@ -1,0 +1,6 @@
+site_name: Guide to Hosting Static Websites
+site_url: https://static-site-hosting.ideapool.community
+nav:
+  - Guide: index.md
+theme:
+  name: material
