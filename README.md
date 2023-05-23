@@ -29,7 +29,7 @@ The site is built using [MkDocs](https://www.mkdocs.org/).
 
 ### Prerequisites:
 
-- Python
+- Python 3.8+
 
 ### Install
 
