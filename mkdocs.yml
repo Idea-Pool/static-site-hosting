@@ -7,7 +7,18 @@ site_description: Hosting static websites, whether it's documentation or a React
   informed decision.
 site_author: Idea Pool Community
 nav:
-  - Guide: index.md
+  - Introduction: index.md
+  - 'The Website': website.md
+  - Hosting:
+    - 'General static hosting': hosting/general.md
+    - 'GitHub Pages': hosting/github-pages.md
+    - 'AWS S3': hosting/aws-s3.md
+    - 'Azure Storage': hosting/azure-storage.md
+    - 'Google Cloud': hosting/google-cloud.md
+    - 'Netlify': hosting/netlify.md
+    - 'CloudFlare': hosting/cloudflare.md
+    - 'VM': hosting/vm.md
+  - Recommendation: recommendation.md
 plugins:
   - offline
 theme:
