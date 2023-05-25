@@ -13,3 +13,33 @@ informed decision. It begins with a general introduction to static website hosti
 - **VM Hosting**: Set up a virtual machine to host your static website.
 - **Netlify**: Explore the powerful features of Netlify for static website hosting and continuous deployment.
 - **Cloudflare**: Discover how Cloudflare can enhance your static website's performance, security, and availability.
+
+<!-- (the idea, the goals, and the approach to cover it) -->
+
+## The website
+
+<!-- (a description of the static site used, including the tools and technology) -->
+
+## General static hosting
+
+<!-- (a description of the general, abstract approach to how a static website is hosted) -->
+
+## Hosting on GitHub Pages
+
+## Hosting on AWS S3
+
+## Hosting on Azure Storage
+
+## Hosting on Google Cloud
+
+## Hosting on Netlify
+
+## Hosting on CloudFlare
+
+## Hosting on a VM
+
+<!-- (AWS, Azure, or GCP) -->
+
+## Recommendation
+
+<!-- (summary and a recommendation for 2-3 use-cases) -->
