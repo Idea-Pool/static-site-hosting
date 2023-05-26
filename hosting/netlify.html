@@ -12,25 +12,27 @@
         <meta name="author" content="Idea Pool Community">
       
       
-        <link rel="canonical" href="https://static-site-hosting.ideapool.community/index.html">
+        <link rel="canonical" href="https://static-site-hosting.ideapool.community/hosting/netlify.html">
       
       
+        <link rel="prev" href="google-cloud.html">
       
-        <link rel="next" href="website.html">
       
-      <link rel="icon" href="assets/idea-pool.png">
+        <link rel="next" href="cloudflare.html">
+      
+      <link rel="icon" href="../assets/idea-pool.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.14">
     
     
       
-        <title>Guide to Hosting Static Websites</title>
+        <title>Netlify - Guide to Hosting Static Websites</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.85bb2934.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.85bb2934.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.a6bdf11c.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a6bdf11c.min.css">
       
       
 
@@ -46,7 +48,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -75,7 +77,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#guide-to-hosting-static-websites" class="md-skip">
+        <a href="#hosting-on-netlify" class="md-skip">
           Skip to content
         </a>
       
@@ -91,9 +93,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="index.html" title="Guide to Hosting Static Websites" class="md-header__button md-logo" aria-label="Guide to Hosting Static Websites" data-md-component="logo">
+    <a href="../index.html" title="Guide to Hosting Static Websites" class="md-header__button md-logo" aria-label="Guide to Hosting Static Websites" data-md-component="logo">
       
-  <img src="assets/idea-pool.png" alt="logo">
+  <img src="../assets/idea-pool.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -109,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction
+              Netlify
             
           </span>
         </div>
@@ -181,9 +183,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="index.html" title="Guide to Hosting Static Websites" class="md-nav__button md-logo" aria-label="Guide to Hosting Static Websites" data-md-component="logo">
+    <a href="../index.html" title="Guide to Hosting Static Websites" class="md-nav__button md-logo" aria-label="Guide to Hosting Static Websites" data-md-component="logo">
       
-  <img src="assets/idea-pool.png" alt="logo">
+  <img src="../assets/idea-pool.png" alt="logo">
 
     </a>
     Guide to Hosting Static Websites
@@ -209,21 +211,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="index.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
         Introduction
       </a>
-      
     </li>
   
 
@@ -236,7 +228,7 @@
   
   
     <li class="md-nav__item">
-      <a href="website.html" class="md-nav__link">
+      <a href="../website.html" class="md-nav__link">
         The Website
       </a>
     </li>
@@ -249,16 +241,18 @@
 
   
   
+    
+  
   
     
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
       
       
       
@@ -267,7 +261,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
           Hosting
@@ -280,7 +274,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hosting/general.html" class="md-nav__link">
+      <a href="general.html" class="md-nav__link">
         General static hosting
       </a>
     </li>
@@ -294,7 +288,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hosting/github-pages.html" class="md-nav__link">
+      <a href="github-pages.html" class="md-nav__link">
         GitHub Pages
       </a>
     </li>
@@ -308,7 +302,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hosting/aws-s3.html" class="md-nav__link">
+      <a href="aws-s3.html" class="md-nav__link">
         AWS S3
       </a>
     </li>
@@ -322,7 +316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hosting/azure-storage.html" class="md-nav__link">
+      <a href="azure-storage.html" class="md-nav__link">
         Azure Storage
       </a>
     </li>
@@ -336,7 +330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hosting/google-cloud.html" class="md-nav__link">
+      <a href="google-cloud.html" class="md-nav__link">
         Google Cloud
       </a>
     </li>
@@ -348,11 +342,21 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="hosting/netlify.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="netlify.html" class="md-nav__link md-nav__link--active">
         Netlify
       </a>
+      
     </li>
   
 
@@ -364,7 +368,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hosting/cloudflare.html" class="md-nav__link">
+      <a href="cloudflare.html" class="md-nav__link">
         CloudFlare
       </a>
     </li>
@@ -378,7 +382,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hosting/vm.html" class="md-nav__link">
+      <a href="vm.html" class="md-nav__link">
         VM
       </a>
     </li>
@@ -400,7 +404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="recommendation.html" class="md-nav__link">
+      <a href="../recommendation.html" class="md-nav__link">
         Recommendation
       </a>
     </li>
@@ -440,7 +444,7 @@
                   
 
   
-    <a href="https://github.com/Idea-Pool/static-site-hosting/edit/main/docs/index.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/Idea-Pool/static-site-hosting/edit/main/docs/hosting/netlify.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
     </a>
@@ -448,21 +452,7 @@
   
 
 
-<h1 id="guide-to-hosting-static-websites">Guide to Hosting Static Websites</h1>
-<p>Hosting static websites, whether it's documentation or a React website, is a common practice. There are numerous options
-available, both paid and free, catering to different levels of load and technical expertise.</p>
-<p>This guide aims to compare several hosting options, providing examples and working templates to help you make an
-informed decision. It begins with a general introduction to static website hosting and covers the following options:</p>
-<ul>
-<li><strong>GitHub Pages</strong>: Host your static website directly from a GitHub repository.</li>
-<li><strong>AWS S3</strong>: Utilize Amazon S3 for reliable and scalable static website hosting.</li>
-<li><strong>Azure Storage</strong>: Leverage Azure Storage to deploy and manage your static website.</li>
-<li><strong>Google Cloud Web Hosting</strong>: Deploy your static website on the Google Cloud platform.</li>
-<li><strong>VM Hosting</strong>: Set up a virtual machine to host your static website.</li>
-<li><strong>Netlify</strong>: Explore the powerful features of Netlify for static website hosting and continuous deployment.</li>
-<li><strong>Cloudflare</strong>: Discover how Cloudflare can enhance your static website's performance, security, and availability.</li>
-</ul>
-<!-- (the idea, the goals, and the approach to cover it) -->
+<h1 id="hosting-on-netlify">Hosting on Netlify</h1>
 
 
 
@@ -500,10 +490,10 @@ informed decision. It begins with a general introduction to static website hosti
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.sections", "content.action.edit"], "search": "assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.sections", "content.action.edit"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.b4d07000.min.js"></script>
+      <script src="../assets/javascripts/bundle.b4d07000.min.js"></script>
       
     
   </body>

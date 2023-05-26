@@ -2,7 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://static-site-hosting.ideapool.community/index.html</loc>
-         <lastmod>2023-05-25</lastmod>
+         <lastmod>2023-05-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://static-site-hosting.ideapool.community/recommendation.html</loc>
+         <lastmod>2023-05-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://static-site-hosting.ideapool.community/website.html</loc>
+         <lastmod>2023-05-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://static-site-hosting.ideapool.community/hosting/aws-s3.html</loc>
+         <lastmod>2023-05-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://static-site-hosting.ideapool.community/hosting/azure-storage.html</loc>
+         <lastmod>2023-05-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://static-site-hosting.ideapool.community/hosting/cloudflare.html</loc>
+         <lastmod>2023-05-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://static-site-hosting.ideapool.community/hosting/general.html</loc>
+         <lastmod>2023-05-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://static-site-hosting.ideapool.community/hosting/github-pages.html</loc>
+         <lastmod>2023-05-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://static-site-hosting.ideapool.community/hosting/google-cloud.html</loc>
+         <lastmod>2023-05-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://static-site-hosting.ideapool.community/hosting/netlify.html</loc>
+         <lastmod>2023-05-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://static-site-hosting.ideapool.community/hosting/vm.html</loc>
+         <lastmod>2023-05-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
